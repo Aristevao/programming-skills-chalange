@@ -1,4 +1,4 @@
-package com.siemens.challenge.question4;
+package com.aristevao.challenge.question4;
 
 import java.util.Scanner;
 

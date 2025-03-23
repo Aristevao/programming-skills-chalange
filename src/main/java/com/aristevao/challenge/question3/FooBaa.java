@@ -1,4 +1,4 @@
-package com.siemens.challenge.question3;
+package com.aristevao.challenge.question3;
 
 public class FooBaa {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package com.siemens.challenge;
+package com.aristevao.challenge;
 
-import static com.siemens.challenge.question4.ConcatRemove.concatRemove;
+import static com.aristevao.challenge.question4.ConcatRemove.concatRemove;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;

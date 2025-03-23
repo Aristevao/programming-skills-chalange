@@ -1,4 +1,4 @@
-package com.siemens.challenge.question10;
+package com.aristevao.challenge.question10;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;
