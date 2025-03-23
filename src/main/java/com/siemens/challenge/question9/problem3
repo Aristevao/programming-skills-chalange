@@ -1,0 +1,6 @@
+bq         # Starts utility from linux command prompt
+rel XYZ    # Specify XYZ relation to access
+key 10     # Specify the key 10 from XYZ to read
+re k       # Read the record with key value 10
+re n       # Read the next record
+re n       # Read the next record

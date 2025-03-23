@@ -1,0 +1,4 @@
+bq         # Starts utility from linux command prompt
+rel XYZ    # Specify XYZ relation to access
+re f       # Read the first record
+re l       # Read the last record

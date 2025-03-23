@@ -1,0 +1,3 @@
+bq         # Starts utility from linux command prompt
+rel ABC    # Specify ABC relation to access
+di         # Display data structure of relation identified
