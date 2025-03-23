@@ -37,10 +37,6 @@ mvn test
 
 ## Direct Links to Each Question
 
-1 Question1.java README -
-2 Question2.java README -
-3 Question3.java README Tests
-
 | Question | Source Code                                                                                                                                                                   | README                                                                                                                                | Tests                                                                                                                                                 |
 |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 3        | [FooBaa.java](https://github.com/Aristevao/programming-skills-chalange/blob/main/src/main/java/com/siemens/challenge/question3/FooBaa.java)                                   | [README](https://github.com/Aristevao/programming-skills-chalange/blob/main/src/main/java/com/siemens/challenge/question3/README.md)  | –                                                                                                                                                     |
