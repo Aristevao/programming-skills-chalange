@@ -15,7 +15,7 @@ public class ConcatRemove {
         int additionsNeeded = t.length() - commonLength;
         int totalOperations = removalsNeeded + additionsNeeded;
 
-        if (k == totalOperations || (k > totalOperations && (k - totalOperations) % 2 == 0) || k >= s.length() + t.length()) {
+        if (k == totalOperations || k > totalOperations) {
             return "yes";
         }
 
