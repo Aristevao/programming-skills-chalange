@@ -6,7 +6,7 @@ This program prints each number from 1 to 100 on a new line, following the rules
 
 ## How to Run
 ### Prerequisites
-- Java 17 installed
+- Java 17
 
 ### Run the Program
 Compile and execute with the following command:

@@ -1,15 +1,21 @@
 ## Student Grades Report
 
 ### Description
-This script retrieves student grades from two tables: Students and Notes. The goal is to generate a report that meets the following criteria:
 
-- Contains three columns: Name, Grade and Value. 
-- The report must be in descending order by grade, that is, the highest grades are inserted first. 
-- If there are more than one student with the same grade (8-10) assigned to them, sort those students in particular by their names in alphabetical order. 
-- If the grade is less than 8, use "NULL" as the name and list them in grades in descending order. 
-- If there are more than one student with the same grade (1-7) assigned to them, sort those students in particular by their grades in ascending order.
+This script retrieves student grades from two tables: `Students` and `Notes`. The goal is to generate a report that
+meets
+the following criteria:
 
-### How to test
+- Contains three columns: `Name`, `Grade` and `Value`.
+- The report must be in descending order by grade, that is, the highest grades are inserted first.
+- If there are more than one student with the same grade (8-10) assigned to them, sort those students in particular by
+  their names in **alphabetical order**.
+- If the grade is less than 8, use `NULL` as the name and list them in grades in **descending order**.
+- If there are more than one student with the same grade (1-7) assigned to them, sort those students in particular by
+  their grades in **ascending order**.
+
+### How to run
+
 1. Open the [SQLite Online](https://sqliteonline.com/).
 2. Execute the following scripts:
 
@@ -70,6 +76,7 @@ ORDER BY
 ```
 
 ### Expected Output
+
 | Name    | Grade | Value |
 |---------|-------|-------|
 | Maria   | 10    | 99    |
