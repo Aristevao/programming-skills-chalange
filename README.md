@@ -23,6 +23,8 @@ cd src/main/java/com/siemens/challenge/questionX
 java QuestionX.java
 ```
 
+Each question also has a README file with a context and instructions on how to run the code.
+
 ### Running the Tests
 
 The tests are located in `src/test/java/com/siemens/challenge/questionX/`.
