@@ -2,9 +2,9 @@
 
 Consider a software utility called ‘bq’ that allows the user to read runtime, persistent data structures.
 
-- Problem #1: Determine the structure of relation ABC
-- Problem #2: Read the first and last records of relation XYZ
-- Problem #3: Read key value 10 and the next 2 records
+- **Problem #1:** Determine the structure of relation ABC;
+- **Problem #2:** Read the first and last records of relation XYZ;
+- **Problem #3:** Read key value 10 and the next 2 records.
 
 ## bq Commands:
 
