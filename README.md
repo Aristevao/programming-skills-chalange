@@ -15,7 +15,7 @@ tests are in `src/test/java/com/siemens/challenge/`.
 
 ### Running a Specific Question
 
-Each question has a java file with a main method.
+Each question has a java file with a `main` method.
 To run a specific question, use:
 
 ```bash
