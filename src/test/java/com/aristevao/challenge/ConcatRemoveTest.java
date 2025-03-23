@@ -8,33 +8,46 @@ import org.junit.jupiter.api.Test;
 public class ConcatRemoveTest {
 
     @Test
-    public void testExactOperations() {
-        assertEquals("yes", concatRemove("blablablabla", "blablabcde", 8));
+    void testExactOperations() {
+        assertEquals("yes", concatRemove("abc", "abd", 2));
+        assertEquals("yes", concatRemove("hello", "hell", 1));
     }
 
     @Test
-    public void testExcessOperationsEven() {
-        assertEquals("yes", concatRemove("blablablabla", "blablabcde", 10));
+    void testMoreOperationsAvailable() {
+        assertEquals("yes", concatRemove("abc", "abd", 10));
+        assertEquals("yes", concatRemove("abc", "xyz", 6));
     }
 
     @Test
-    public void testExcessOperationsOdd() {
-        assertEquals("yes", concatRemove("tabtab", "tabtaabcd", 7));
+    void testNotEnoughOperations() {
+        assertEquals("no", concatRemove("abc", "abd", 1));
+        assertEquals("no", concatRemove("hello", "world", 3));
     }
 
     @Test
-    public void testInsufficientOperations() {
-        assertEquals("no", concatRemove("tabtab", "tabtaabcd", 4));
+    void testSameStrings() {
+        assertEquals("yes", concatRemove("test", "test", 0));
+        assertEquals("yes", concatRemove("test", "test", 2));
     }
 
     @Test
-    public void testDifferentStringSizes() {
-        assertEquals("yes", concatRemove("abc", "abcdefgh", 5));
+    void testEmptyStringCases() {
+        assertEquals("yes", concatRemove("", "", 0));
+        assertEquals("yes", concatRemove("", "hello", 5));
+        assertEquals("yes", concatRemove("hello", "", 5));
     }
 
     @Test
-    public void testStringsEqual() {
-        assertEquals("yes", concatRemove("tabtab", "tabtab", 0));
+    void testExtraDeletionsAllowed() {
+        assertEquals("yes", concatRemove("abc", "abd", 4));
+        assertEquals("yes", concatRemove("test", "testing", 10));
+    }
+
+    @Test
+    void testMaxOperationsAllowed() {
+        assertEquals("yes", concatRemove("U_yxcpa=r@FXR,a=ix6Ae6a;!Vpuk:Yn?QEPW)}U[*TAbuMU&n",
+                "wN0;(Y}HXFX8z{X{+=e#RQ1J7$d]iD-:p4*V8Y9ESRm[#a&U+h", 100));
     }
 }
 
