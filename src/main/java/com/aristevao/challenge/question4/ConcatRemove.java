@@ -3,6 +3,7 @@ package com.aristevao.challenge.question4;
 import java.util.Scanner;
 
 public class ConcatRemove {
+
     public static String concatRemove(String s, String t, int k) {
         int commonLength = 0;
 
